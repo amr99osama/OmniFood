@@ -1,0 +1,275 @@
+/* ------- Media Queries ------------- */
+
+
+
+@media only screen and (max-width:1440px)
+{
+     .Header-Main-box
+    {
+        margin-top: 4%;
+    }
+
+}
+
+
+
+
+/* Big Tablets to Small PC's Screens */
+
+@media only screen and (max-width:1200px)
+{
+    .Header-Main-box
+    {
+        width: 100%;
+        padding: 0px 2%;
+        margin-top: 5%;
+    }
+    
+    .row
+    {
+        padding: 0 2%;
+    }
+}
+
+
+/* Small Tablets to Landscape (portait) screens */
+@media only screen and (max-width:1023px)
+{
+    body
+    {
+        font-size: 18px;
+    }
+        .Header-Main-box
+    {
+        margin-top: 7%;
+        font-size: 90%;
+    }
+    
+    .header-nav
+    {
+        display: block;
+    }
+    section
+    {
+        padding: 65px 0;
+    }
+    .Description
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box:last-child
+    {
+        margin-top: 20px;
+    }
+    .Steps-for-work p
+    {
+        line-height: 120%;
+    font-weight: 300;
+                font-size: 90%;
+    }
+    .Number-of-Steps
+    {
+        padding: 3.5%;
+    }
+    .Mobile-Application img
+    {
+        width: 55%;
+        margin: 0;
+    }
+    .steps-box a img
+    {
+        margin: 20px;
+        width: 85%;
+    }
+    
+    .City-Box
+    {
+        margin-bottom: 10px;
+        font-size: 83%;
+    }
+    .City-Box i
+    {
+    padding: 1%;
+    line-height:140%;
+    }
+    .signup-container
+    {
+        width: 100%;
+        margin-left: 0%;
+        font-size: 100%;
+    }
+    .Plan-Price-month,  .Plan-Price-Meal-1
+
+    {
+        font-size: 250%;
+    }
+    .Plan-Price-Meal , li 
+    {
+        font-size: 90%;
+    }
+    
+    form
+    {
+         width: 80%;
+    }
+
+
+/* Small phones to small Tablets (Ipad..etc) */
+@media only screen and (max-width:767px)
+{
+    body
+    {
+        font-size: 16px;
+    }
+    section
+    {
+        padding: 30px 0 ;
+    }
+    .col
+    {
+        width: 100%;
+    }
+    
+    
+    .row, 
+    {
+        padding: 0 4%;
+    }
+    .Header-Main-box h1
+    {
+        margin-top: 7%;
+    }
+    h1
+    {
+        font-size: 180%;
+    }
+    h2
+    {   
+        font-size: 150%;
+    }
+    h3
+    {
+        font-size: 120%;
+    }
+    
+     .header-nav
+    {
+        float: left ;
+        display: none;
+    }
+   
+    .header-nav li
+    {
+        display: block;
+        margin-top: 30px;
+    }
+    .header-nav li a:visited , .header-nav li a:link
+    {
+        border: none;
+        display: block;
+        padding: 0;
+        height: 5px;
+        font-size: 100%;
+    }
+    .Mobile-Nav
+    {
+        display:inline-block;
+        cursor: pointer;
+    }
+    
+    .sticky-navbar .header-nav
+{
+    margin-top:5px;
+    margin-bottom: 10px;s
+}
+    
+    .sticky-navbar .Mobile-Nav
+    {
+        color: black;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+.sticky-navbar .header-nav li a:link ,.sticky-navbar .header-nav li a:visited
+{
+    padding: 15px 0;
+    border: 0;
+}
+
+.sticky-navbar .header-nav li
+{
+ display: block;
+ margin: 10px 0 0 40px;
+}
+
+.sticky-navbar .header-nav li a:hover ,.header-nav li a:active
+{
+padding: 10px 0;
+    margin: 10px 0;
+}
+    
+    .Mobile-Application
+    {
+        text-align: center;
+    }
+    .Mobile-Application img {
+    width: 50%;
+   }
+    
+     .Steps-for-work p
+    {
+        padding: 5px 0px;
+        font-size: 100%;
+    }
+    .Number-of-Steps
+    {
+         width: 35px;
+        height: 35px;
+        padding: 1.5%;
+        font-size: 100%;
+        margin-top: 2%;
+    }
+   .Stores
+    {
+    float: left;
+     width: 49%;
+    }
+    .Stores:after
+    {
+        clear: both;
+        content: " ";
+    }
+    
+    .City-Box
+    {
+        font-size: 100% ;
+    }
+    .Plan-Price-Meal, li
+    {
+        font-size: 100%;
+    }
+    input[type=text], input[type=email], select, textarea {
+    width: 100%;
+        margin: 5px 0px;
+    }
+/* Small Phones : (Iphone4.. etc) */
+@media only screen and (max-width:480px)
+{
+    .Logo {
+    height: 70px;
+    }
+    section
+    {
+        padding: 25px 0px;
+    }
+    form
+    {
+        width: 100%;
+    }
+      .Header-Main-box 
+    {
+        font-size: 57%;
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,609 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}html{font-family:'Lato',sans-serif;font-weight:300;font-size:20px;text-rendering:optimizeLegibility;overflow-x:hidden}.row{max-width:1140px;margin-left:auto;margin-right:auto}h1,h2,h3{margin:0;font-weight:300;text-transform:uppercase;line-height:130%;margin-bottom:15px}h1{font-size:250%;letter-spacing:2px;word-spacing:4px;color:#fff}h2{font-size:180%;letter-spacing:1.5px;word-spacing:2px;text-align:center;margin-bottom:25px}h3{font-size:120%;word-spacing:1px}h2:after{content:" ";width:100px;background-color:#e67e22;height:2px;margin:0 auto;display:block;margin-top:20px}section{padding:90px 0}.clearfix{zoom:1}.clearfix:after{content:" ";display:block;clear:both;visibility:hidden}
+/* Default Buttons */
+.btn:link ,.btn:visited
+{
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 200px;
+    text-decoration: none;
+    font-weight: 300;
+    -webkit-transition: background-color 0.3s , border 0.3s , color 0.3s;
+    transition: background-color 0.3s , border 0.3s , color 0.3s;
+}
+.btn-head1:link, .btn-head1:visited
+{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: white;
+    margin-right: 20px;
+}
+
+.btn-head2:link , .btn-head2:visited
+{
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+btn:hover ,.btn:active
+{
+    background-color: #d35400;
+}
+.btn-head1:hover, .btn-head1:active
+{
+     background-color: #d35400;
+}
+
+.btn-head2:hover , .btn-head2:active
+{
+        background-color: #d35400;
+    color: white;
+}
+
+/*--------------------------------------------------*/
+/* Header Section */
+header
+{
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.7)),to(rgba(0,0,0,0.7))),url(../Assets/hero.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Assets/hero.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Header-Main-box
+{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);  
+}
+
+.Mobile-Nav
+{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+.Mobile-Nav
+{
+    font-size: 200%;
+    color: white;
+}
+.Logo
+{
+    height: 100px; 
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.Logo-black{
+    width: auto;
+    float: left;
+    display: none;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Sticky Navbar shows when we leave the header */
+
+.sticky-navbar
+{
+   position: fixed;
+  background-color: rgba(255, 255, 255,0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-shadow: 0px 1.5px 1.5px #eaeaea;
+            box-shadow: 0px 1.5px 1.5px #eaeaea;
+    z-index: 999;
+}
+
+
+.header-nav{
+    float: right;
+    list-style: none;
+}
+
+.header-nav li
+{
+ display: inline-block;
+ margin: 50px 0 0 40px;
+}
+
+.header-nav li a:link ,.header-nav li a:visited
+{
+    color: white;
+    text-decoration: none;
+    font-size: 85%;
+    text-transform: uppercase;
+    -webkit-transition: border-bottom 0.4s , color 0.4s;
+    transition: border-bottom 0.4s , color 0.4s;
+   border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+}
+.header-nav li a:hover ,.header-nav li a:active
+{   
+    color:#d35400;
+    border-bottom: 1px solid #d35400;   
+}
+
+.sticky-navbar .header-nav li a:link ,.sticky-navbar .header-nav li a:visited
+{
+    color: black;
+    padding: 15px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.sticky-navbar .header-nav li
+{
+ display: inline-block;
+ margin: 20px 0 0 40px;
+}
+
+
+.sticky-navbar .Logo {display: none;}
+.sticky-navbar .Logo-black {display: block;}
+
+
+.sticky-navbar .header-nav li a:hover ,.header-nav li a:active
+{
+     color:#d35400;
+    border-bottom: 2px solid #d35400;   
+}
+/*--------------------------------------------------*/
+
+/* Section 2 :Features Section */
+
+.Description
+{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+/* For ICONS */
+.Features-Icons
+{
+    font-size: 250%;
+    color: #e67e22;
+    margin: 20px 0px;
+    display: block;
+}
+
+.Icons-Description
+{
+    font-size: 90%;
+    line-height: 150%;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/* Section 3 : The Favourite Meal */
+
+.Favourite-Meals
+{
+    padding: 0; 
+}
+
+.Meal-List
+{
+    list-style: none;
+    width: 100%;
+}
+
+.Meal-List li
+{
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.Meal-List li figure
+{
+    overflow: hidden;
+}
+
+.Meal-List li figure img
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    cursor: pointer;
+    opacity: 0.9;
+    -webkit-transition: opacity 0.4s , -webkit-transform 0.4s;
+    transition: opacity 0.4s , -webkit-transform 0.4s;
+    transition: transform 0.4s , opacity 0.4s;
+    transition: transform 0.4s , opacity 0.4s , -webkit-transform 0.4s;
+}
+
+.Meal-List li figure img:hover
+{
+    -webkit-transform: scale(1.20);
+            transform: scale(1.20);
+    opacity: 1;
+}
+
+
+/*--------------------------------------------------*/
+
+/* Section 4 : How It Works Section */
+
+
+.Steps-Section
+{
+    background-color: #fbfbfb;
+}
+.steps-box:first-child
+{
+    padding: 3%;
+    margin-top: 35px;
+    text-align: right;
+}
+
+
+.steps-box a img
+{
+    margin-top: 55px;
+}
+.Mobile-Application img
+{
+    width: 45%;
+    margin: 1%;
+}
+
+.steps-box:last-child
+{
+    padding: 3%;
+    margin-top: 75px;
+}
+.Steps-for-work
+{
+    margin-bottom: 45px;
+}
+
+.Steps-for-work p
+{
+    line-height: 140%;
+    font-weight: 400;
+}
+
+.Number-of-Steps
+{
+    border: 1px solid #e67e22;
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 1.5%;
+    font-size: 150%;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s,
+        color 0.5s;
+    transition: background-color 0.5s,
+        color 0.5s;
+}
+.Number-of-Steps:hover
+{
+    background-color: #e67e22;
+    color: white;
+}
+
+/*--------------------------------------------------*/
+
+
+
+/* Section 5 : Cities Section */
+
+.city-img
+{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+.City-Box
+{
+    margin-bottom: 5px;
+}
+
+.City-Box i , .signup-icons
+
+{
+    color: #e67e22;
+    font-size: 90%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    vertical-align: middle;
+    line-height: 120%;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+.City-Box a:link ,.City-Box a:visited  
+{
+    color: black;
+    text-decoration: none;
+    -webkit-transition: color 0.5s , border 0.5s;
+    transition: color 0.5s , border 0.5s;
+     -webkit-transition: border-bottom 0.4s , color 0.4s;
+     transition: border-bottom 0.4s , color 0.4s;
+ border-bottom: 1px solid #e67e22;
+    padding-bottom: 5px;
+}
+
+.City-Box a:hover ,.City-Box a:active  
+{
+    color: #e67e22;
+    border-bottom: 1px solid transparent;
+}
+
+/*--------------------------------------------------*/
+
+
+/* Section 6 : Testimonials Section */
+
+
+.Testimonial-section
+{
+    background-image:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.8)),to(rgba(0,0,0,0.8))),url(../Assets/back-customers.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../Assets/back-customers.jpg);
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+blockquote
+{
+    padding: 3%;
+    font-style: italic;
+    font-size: 90%;
+    line-height: 150%;
+        position: relative;
+    margin-top: 30px;
+}
+
+blockquote:before
+{
+    content: "\201C";
+    font-size: 450%;
+    padding-bottom: 10px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    left:0px; 
+}
+
+cite
+{
+    display: block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+cite img 
+{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+/*--------------------------------------------------*/
+
+
+/* Section 7 : Sign Up Section Section */
+.Signup-section 
+{
+    background-color: #fbfbfb;
+}
+
+.signup-container
+{
+    width: 90%;
+    margin-left:5%;
+    background-color: white;
+  
+    
+}
+
+.signup-container div
+{
+    padding: 15px;
+    border-bottom: 1px solid #ededed;
+}
+.Plan-Price-month ,
+.Plan-Price-Meal-1
+{
+    font-size: 300%;
+    color:#e67e22 ;
+    margin-bottom: 10px;
+}
+
+.Plan-Price-month span , .Plan-Price-Meal-1 span
+{
+    font-size: 30%;
+    color: black;
+}
+
+.signup-title
+{
+    background-color: #e2e2e2;
+       
+
+}
+.signup-Advantages ul
+{
+    list-style: none;
+}
+
+.signup-icons
+{
+    line-height: 170%;
+}
+.signup-Confirmation
+{
+    text-align: center;
+}
+
+/*--------------------------------------------------*/
+
+/* Section 8 : Contact's Form Section */
+
+form
+{
+    width: 65%;
+    margin: 0 auto;
+    line-height: 200%;
+}
+
+input[type=text],
+input[type=email],
+select, textarea
+{
+    width: 100%;
+    padding: 10px 3px;
+    border-radius: 5px;
+    border: 1px solid #e67e22;
+    -webkit-transition: outline 0.2s , border 0.2s;
+    transition: outline 0.2s , border 0.2s;
+}
+
+
+input[type=text]:focus,
+input[type=email]:focus,
+select:focus, textarea:focus
+{
+    outline: none;
+    border: 1px solid #d35400;
+    
+}
+textarea
+{
+    height: 100px;
+}
+
+input[type="checkbox"]
+{
+    margin: 10px 10px 5px 0px;
+    cursor: pointer;
+}
+
+#submit
+{
+    border: 1px solid #e67e22;
+    color:white;
+    background-color: #e67e22;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 200px;
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+    -webkit-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+#submit:hover
+{
+     background-color: #d35400
+}
+
+/* Final Section : Footer Section */
+footer
+{
+    background-color:#333;
+    padding: 45px
+}
+
+.footer-Nav
+{
+    float: left;
+    list-style: none;
+}
+
+.Social-Nav
+{
+    float: right;
+    list-style: none;
+}
+
+.footer-Nav li, .Social-Nav li
+{
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+.footer-Nav li:last-child, .Social-Nav li:last-child
+{
+    margin-right: 0;
+}
+footer-Nav li:first-child, .Social-Nav li:first-child
+{
+    margin-left: 0;
+}
+.footer-Nav li a:link,
+.footer-Nav li a:visited ,
+.Social-Nav li a:link, .Social-Nav li a:visited
+{
+    color: #888;
+    text-decoration: none;
+    border: none;
+    font-size: 90%;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;  
+}
+
+.footer-Nav li a:hover,
+.footer-Nav li a:active ,
+.Social-Nav li a:hover, .Social-Nav li a:active
+{
+    color: #e67e22;
+}
+
+.footer-section p
+{
+    text-align: center;
+    font-size: 90%;
+    color: #888;
+    margin-top: 30px;
+    font-size: 85%;
+}
+
+/* Animation Class */
+.AM,.AM-1,.AM-2,.AM-3,.AM-4
+{
+    opacity: 0;
+    -webkit-animation-duration: 0.9s;
+            animation-duration: 0.9s;
+}
+
+.AM .animated,.AM-1 .animated ,.AM-2 .animated,.AM-3 .animated,.AM-4 .animated
+{
+    opacity: 1;
+    -webkit-animation-direction: 0.9s;
+            animation-direction: 0.9s;
+}
+/*--------------------------------------------------*/
